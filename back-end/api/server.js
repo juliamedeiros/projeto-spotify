@@ -15,7 +15,7 @@ const PORT = 3000;
 app.use(cors());
 //app.use(express.json());
 
-app.get("/", (request, response) => {
+app.get("/projeto-spotify", (request, response) => {
   response.send("Só vamos trabalhar com endpoints '/artists' e 'songs'");
 });
 
